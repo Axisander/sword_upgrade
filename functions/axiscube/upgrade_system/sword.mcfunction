@@ -1,5 +1,5 @@
-scoreboard objectives add axiscube.upgrade_system.debug dummy "System objective #1"
-scoreboard objectives add axiscube.upgrade_system.debug2 dummy "System objective #2"
+scoreboard objectives add axiscube.upgrade_system.debug dummy "System objective 1"
+scoreboard objectives add axiscube.upgrade_system.debug2 dummy "System objective 2"
 scoreboard players set @s axiscube.upgrade_system.debug2 0
 scoreboard players add @s[hasitem={item=diamond_sword,quantity=2..}] axiscube.upgrade_system.debug2 1
 scoreboard players add @s[hasitem={item=iron_sword,quantity=2..}] axiscube.upgrade_system.debug2 1
