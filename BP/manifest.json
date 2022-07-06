@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Part of the source code of the XYZ MINI GAMES map.\nOriginal map: §bhttps://mcpedl.com/xyz-mini-games-map§r\nAuthor: §ahttps://github.com/axisander",
+    "name": "§aSword upgrader§7 (Add-on) [1.0.0]",
+    "uuid": "000eefff-1a00-400a-a00a-0a00a0aaaa00",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "description": "(c) AxisCube",
+      "type": "data",
+      "uuid": "8961ad3f-d5b4-430e-b5fa-9377d26e7c2d",
+      "version": [1, 0, 0]
+    }
+  ],
+	"metadata": {
+        "authors": [
+            "AlexPro756",
+            "AxisCube_corp"
+        ],
+        "license": "README.md",
+        "url": "https://github.com/Axisander/sword_upgrade"
+    }
+}
