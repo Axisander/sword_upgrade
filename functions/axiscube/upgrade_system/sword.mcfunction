@@ -1,6 +1,7 @@
 scoreboard objectives add axiscube.upgrade_system.debug dummy "System objective 1"
 scoreboard objectives add axiscube.upgrade_system.debug2 dummy "System objective 2"
 scoreboard players set @s axiscube.upgrade_system.debug2 0
+scoreboard players set @s axiscube.upgrade_system.debug 0
 scoreboard players add @s[hasitem={item=diamond_sword,quantity=2..}] axiscube.upgrade_system.debug2 1
 scoreboard players add @s[hasitem={item=iron_sword,quantity=2..}] axiscube.upgrade_system.debug2 1
 scoreboard players add @s[hasitem={item=wooden_sword,quantity=2..}] axiscube.upgrade_system.debug2 1
@@ -16,8 +17,7 @@ scoreboard players add @s[hasitem={item=stone_sword,location=slot.weapon.mainhan
 scoreboard players add @s[hasitem={item=golden_sword,location=slot.weapon.mainhand},scores={axiscube.upgrade_system.debug2=1..}] axiscube.upgrade_system.debug 1
 # Message
 tellraw @s[scores={axiscube.upgrade_system.debug=0}] {"rawtext":[{"text":"Please put the item you want to improve in the main hand"}]}
-scoreboard objectives remove axiscube.upgrade_system.debug
-scoreboard objectives remove axiscube.upgrade_system.debug2
+
 
 # Diamond -> Netherite
 tag @s[hasitem={location=slot.weapon.mainhand,item=diamond_sword}] add hg.function.hasitem.diamond_sword1
